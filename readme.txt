@@ -17,7 +17,7 @@ To see the magic, you just need to follow these step(s):
 Install manually:
 
 1. Install the plugin via, plugins in wp-admin or download zip file and extract to "/wp-content/plugins/".
-2. After installation, you just need to use the shortcode [wp-login] in you pages or posts where you want to add it.
+2. After installation, you just need to use the shortcode [login-form] in you pages or posts where you want to add it.
 3. If you want to add it to use in custom template use this code:-
 echo do_shortcode('[login-form]');
 
@@ -26,7 +26,7 @@ Install using/within WordPress:
 1. Upload the folder "login-anywhere" to "/wp-content/plugins/"
 2. Activate the plugin through the "Plugins" menu in WordPress
 3. Enable/ disable 'Login Anywhere' setting by going WP-admin ->Login Anywhere 
-4. After installation, you just need to use the shortcode [wp-login] in you pages or posts where you want to add it.
+4. After installation, you just need to use the shortcode [login-form] in you pages or posts where you want to add it.
 5. If you want to add it to use in custom template use this code:-
 echo do_shortcode('[login-form]').
 
