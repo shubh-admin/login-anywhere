@@ -10,13 +10,20 @@ Requires at least: 3.5.0
 Stable tag: 0.0.1
 
 == Description ==
-This plugin provides a mobile button, which demonstrate different steps of Repairing Process. 
+It allows you to add wordpress login form anywhere into your posts, pages or custom template. The steps are very simple:-
+1. Install the plugin via, plugins in you wp-admin or download zip file from here and install it manually by  extracting it into you wp-pluigns folder.
+2. After installation, you just need to use the shortcode [wp-login] in you pages or posts where you want to add it.
+3. If you want to add it to use in custom template use this code:-
+echo do_shortcode('[login-form]');
  
 Follow the follwing steps -
 
 * Upload the folder "login-anywhere" to "/wp-content/plugins/"
 * Activate the plugin through the "Plugins" menu in WordPress
 * Enable/ disable 'Login Anywhere' setting by going WP-admin ->Login Anywhere 
+* After installation, you just need to use the shortcode [wp-login] in you pages or posts where you want to add it.
+* If you want to add it to use in custom template use this code:-
+echo do_shortcode('[login-form]').
 
 
 == Screenshots ==
