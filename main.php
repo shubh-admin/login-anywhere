@@ -2,8 +2,8 @@
   /*
   Plugin Name: Login Anywhere
   Plugin URI: http://shubhcomputing.com/
-  Description: Provides a mobile button, which demonstrate different steps of Repairing Process.
-  Version: 0.0.1
+  Description: It allows to add wordpress login form anywhere in any posts, pages or custom template.
+  Version: 0.1.0
   Author: Shubh Computing LLP
   Author URI: http://shubhcomputing.com/
   */
@@ -13,9 +13,10 @@
    define("ME_URL", rtrim(WP_PLUGIN_URL,'/') . '/'.basename(dirname(__FILE__)) );
    define("ME_DIR", rtrim(dirname(__FILE__), '/'));
 
-    add_shortcode('login-form','login_form_callback');
-   function login_form_callback()
+   add_shortcode('login-form','login_form_callback');
+	
+   function login_form_callback($attr)
    {
-       include_once(plugin_dir_path(__FILE__)."/shortcodes/login_form_callback.php");
-       
+       include_once(ME_DIR."/shortcodes/login_form_callback.php");
+	   return Login_Form($attr);
    }
