@@ -17,5 +17,5 @@
    function login_form_callback()
    {
        include_once(plugin_dir_path(__FILE__)."/shortcodes/login_form_callback.php");
-       return $data;
+       
    }
