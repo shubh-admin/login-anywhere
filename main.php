@@ -16,6 +16,6 @@
     add_shortcode('login-form','login_form_callback');
    function login_form_callback()
    {
-       include_once(ME_DIR."/shortcodes/login_form_callback.php");
+       include_once(plugin_dir_path(__FILE__)."/shortcodes/login_form_callback.php");
        return $data;
    }
