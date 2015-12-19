@@ -3,7 +3,7 @@
   Plugin Name: Login Anywhere
   Plugin URI: http://shubhcomputing.com/
   Description: It allows to add wordpress login form anywhere in any posts, pages or custom template.
-  Version: 0.1.0
+  Version: 0.1.1
   Author: Shubh Computing LLP
   Author URI: http://shubhcomputing.com/
   */
