@@ -7,7 +7,7 @@ Tested up to: 4.4
 License: GPLv2 or later  
 License URI:http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.5.0
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 
 == Description ==
 It allows to add wordpress login form anywhere in any posts, pages or custom template.
