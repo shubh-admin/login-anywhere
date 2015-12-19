@@ -61,6 +61,9 @@ You can use `[login-form]` as a short code.
 Here it is: `login-form label_username="Enter Username" label_password="Enter Password" label_remember="Remember Me on this System" label_log_in "Sign In"]`
 
 == Changelog ==
+= 0.1.1 =
+* Compatible with WP version 4.4
+
 = 0.1.0 =
 * Fixed various bugs related to WP version 4.3
 * Fixed undefined variable exception
@@ -79,5 +82,4 @@ Here it is: `login-form label_username="Enter Username" label_password="Enter Pa
 
 == More Information ==
 <a href="http://www.shubhcomputing">Visit plugin site</a> | <a href="https://wordpress.org/plugins/login-anywhere/faq/">FAQ</a> | 
-<a href="https://wordpress.org/support/plugin/login-anywhere">Support</a> | <a href="http://twitter.com/shubhcomputing">Follow on Twitter</a> | 
-<a href="http://www.facebook.com/shubhcomputing">Add Facebook Page</a>
+<a href="https://wordpress.org/support/plugin/login-anywhere">Support</a> | <a href="http://twitter.com/shubhcomputing">Follow on Twitter</a> | <a href="http://www.facebook.com/shubhcomputing">Like us on Facebook</a>
